@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio | Kevin Blumenstock</title>
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <!--NORMALIZE CSS link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header class="page-header">
+            <img src="img/kevin-blumenstock-logo.svg" alt="Personal logo of Kevin Blumenstock, a text logo in uppercase letters that consists of my name" class="page-header__item">
+            <nav class="page-header__item">
+                <ul role="menubar-desktop" class="navigation-list" id="nav-desktop">
+                    <li role="presentation">
+                        <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="about.html" role="menuitem" aria-label="About me" class="navigation-list__item">About</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+                    </li>
+                </ul>
+                <div role="menubar-mobile" class="page-header__item" id="nav-mobile">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+        <main class="main-section">
+            <h1>Contact</h1>
+            <p>
+                <div>
+                    Kevin Blumenstock<br>
+                    Leopoldstr. 34 <br>
+                    10317 Berlin<br>
+                    Germany<br>
+                    <br>
+                    Tel <a href="tel:+491702376276">+49 170 237 6276</a><br>
+                    Skype <a href="skype:live:kj.blumenstock"> live:kj.blumenstock</a><br>
+                    <a href="mailto:kj.blumenstock@gmail.com?subject=Inquiry%20%7C%C2%A0Portfolio&body=Hi%20Kevin!%0D%0A%0D%0AI%20just%20came%20across%20your%20portfolio%20and%20really%20liked%20your%20work!%0D%0A%0D%0AAre%20you%20interested%20in%20working%20for%20us%3F%0D%0A%0D%0APlease%20give%20me%20a%20call%20-%20can't%20wait%20to%20get%20to%20know%20you.%0D%0A%0D%0ABest%2C%0D%0AJoanne%20Doe">kj.blumenstock@gmail.com</a><br>
+                    <a href="mailto:kj.blumenstock@gmail.com">Contact me</a>
+                </div>
+            </p>
+            <p>
+                <div>
+                    <!-- action not yet specified correctly-->
+                    <form action="/XXX" method="post" id="contact-form">
+                        <label class="standard-label" for="contact-email">Email:</label>
+                        <input type="email" id="contact-email" name="email" required>
+                        <label class="standard-label" for="contact-phone">Phone:</label>
+                        <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-phone" name="phone"><br><br>
+                        <label class="standard-label" for="contact-message">Message:</label><br>
+                        <textarea maxlength="240" id="contact-message" required></textarea><br><br>
+                        <button type="submit">Send message</button>
+                      </form>
+                </div>
+            </p>
+        </main>
+        <footer class="page-footer">
+            <p>
+                Find me on
+            </p>   
+            <div class="social-media">
+                <!-- GitHub Logo -->
+                <a href="https://github.com/kjb92" target="_blank"><img src="img/github_icon.svg" alt="github"></a>
+                <!-- Twitter Logo -->
+                <a href="https://twitter.com/kjblumenstock" target="_blank"><img src="img/twitter_icon.svg" alt="twitter"></a>
+                <!-- LinkedIn Logo -->
+                <a href="https://www.linkedin.com/in/kevinblumenstock" target="_blank"><img src="img/linkedin_icon.svg" alt="linkedin"></a>
+            </div>
+            <p>
+                © Copyright 2023. All rights reserved.
+            </p>
+    </footer>
+        <script src="js/tota11y.min.js"></script>
+    </body>
+</html>
