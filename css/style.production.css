@@ -160,6 +160,7 @@ body {
   .table--centered {
     padding: 20px;
     margin: 0 auto;
+    display: none;
   }
 
   .about-picture__wrapper {
