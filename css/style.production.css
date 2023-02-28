@@ -516,4 +516,27 @@
     }
   
   
-  
+    #contact-section{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #contact-form{
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      max-width: 600px;
+    }
+
+    .standard-label {
+      display: flex;
+      width: 100%;
+      justify-content: left;
+    }
+
+    .standard-input {
+      display: flex;
+      width: 100%;
+      justify-content: left;
+    }
