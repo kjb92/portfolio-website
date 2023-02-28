@@ -128,7 +128,6 @@ body {
 
 
   .profile__picture {
-    float: left;
     width: 250px;
     height: 250px;
     margin-right: 20px;
