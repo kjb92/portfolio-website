@@ -258,13 +258,6 @@ body {
   }
   }
   
-
-/* RULE TO HIDE TEST ELEMENTS*/
-  .test__element--hidden {
-    display: none;
-  }
-
-
   /* start grid fallback */
 .project-grid__item {
     display: inline-block;

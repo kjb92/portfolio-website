@@ -289,12 +289,6 @@
           transform: rotate(-135deg);
     }
     }
-    
-  
-  /* RULE TO HIDE TEST ELEMENTS*/
-    .test__element--hidden {
-      display: none;
-    }
   
   
     /* start grid fallback */
