@@ -470,14 +470,21 @@ body {
     max-width: 600px;
   }
 
+  .column-10p {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0px;
+  }
+
   .standard-label {
     display: flex;
-    width: 100%;
     justify-content: left;
   }
 
   .standard-input {
     display: flex;
-    width: 100%;
+    min-height: 30px;
     justify-content: left;
   }
+

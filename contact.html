@@ -55,13 +55,21 @@
                         <div class="contact-section">
                             <!-- action not yet specified correctly-->
                             <form action="/XXX" method="post" id="contact-form">
-                                <label class="standard-label" for="contact-email">Email:</label>
-                                <input class="standard-input" type="email" id="contact-email" name="email" required><br>
-                                <label class="standard-label" for="contact-phone">Phone:</label>
-                                <input class="standard-input" type="tel" id="contact-phone" name="phone"><br>
-                                <label class="standard-label" for="contact-message">Message:</label>
-                                <textarea class="standard-input" maxlength="240" id="contact-message" required></textarea><br><br>
-                                <button type="submit">Send message</button>
+                                <div class="column-10p">
+                                    <label class="standard-label" for="contact-email">Email:</label>
+                                    <input class="standard-input" type="email" id="contact-email" name="email" required>
+                                </div>
+                                <div class="column-10p">
+                                    <label class="standard-label" for="contact-phone">Phone:</label>
+                                    <input class="standard-input" type="tel" id="contact-phone" name="phone">
+                                </div>
+                                <div class="column-10p">
+                                    <label class="standard-label" for="contact-message">Message:</label>
+                                    <textarea class="standard-input" maxlength="240" id="contact-message" required></textarea>
+                                </div>
+                                <div class="column-10p">
+                                    <button type="submit">Send message</button>
+                                </div>
                             </form>
                         </div>
                 </main>
@@ -81,6 +89,7 @@
                     </div>
                 </footer>
             </div>
+        </div>
         <script src="js/tota11y.min.js"></script>
     </body>
 </html>
